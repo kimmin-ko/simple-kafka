@@ -1,0 +1,7 @@
+
+l
+java:S2095""JUse try-with-resources or close this "KafkaStreams" in a "finally" clause.(‹â…ªûÿÿÿÿ8Ã¥–—§0
+W
+java:S1612"AReplace this lambda with method reference 'FilterProcessor::new'.(‘„…‰
+a
+java:S1128"DRemove this unused import 'org.apache.kafka.streams.StreamsBuilder'.(ðÃÅ»8Ä¹ˆ³§0
