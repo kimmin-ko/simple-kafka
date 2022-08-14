@@ -1,4 +1,4 @@
-package com.example;
+package com.example.source;
 
 import org.apache.kafka.connect.data.Schema;
 import org.apache.kafka.connect.errors.ConnectException;

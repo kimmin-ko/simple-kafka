@@ -1,4 +1,4 @@
-package com.example;
+package com.example.source;
 
 import org.apache.kafka.connect.source.SourceRecord;
 import org.apache.kafka.connect.source.SourceTask;

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.source;
 
 import org.apache.kafka.common.config.AbstractConfig;
 import org.apache.kafka.common.config.ConfigDef;

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.source;
 
 import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.connect.connector.Task;
