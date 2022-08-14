@@ -4,6 +4,19 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-consumer-with-multi-worker-thread" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kafka-consumer-with-multi-worker-thread" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/simple-kafka-connect" />
         <option name="modules">
@@ -13,6 +26,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/simple-kafka-consumer" />
         <option name="modules">
@@ -22,6 +37,19 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/simple-kafka-consumer-with-multi-worker-thread" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/simple-kafka-consumer-with-multi-worker-thread" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/simple-kafka-producer" />
         <option name="modules">
@@ -31,6 +59,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/simple-kafka-streams" />
         <option name="modules">
