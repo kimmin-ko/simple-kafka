@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class MultiThreadConsumer extends Consumer {
+public class MultiThreadAbstractConsumer extends AbstractConsumer {
 
     public static void main(String[] args) {
         kafkaConsumer.subscribe(List.of(TOPIC_NAME));

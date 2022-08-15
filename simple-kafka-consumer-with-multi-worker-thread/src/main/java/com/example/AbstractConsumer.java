@@ -8,9 +8,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
-public abstract class Consumer {
+public abstract class AbstractConsumer {
 
-    protected static final Logger logger = LoggerFactory.getLogger(Consumer.class);
+    protected static final Logger logger = LoggerFactory.getLogger(AbstractConsumer.class);
 
     protected static final String TOPIC_NAME = "test";
     protected static final int PARTITION_NUMBER = 0;
@@ -31,6 +31,6 @@ public abstract class Consumer {
         kafkaConsumer = new KafkaConsumer<>(configs);
     }
 
-    protected Consumer() {
+    protected AbstractConsumer() {
     }
 }

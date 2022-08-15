@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-connect" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-consumer-with-multi-worker-thread" />
+    <file type="web" url="file://$PROJECT_DIR$/simple-kafka-multi-consumer-thread" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-producer" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-streams" />
   </component>
