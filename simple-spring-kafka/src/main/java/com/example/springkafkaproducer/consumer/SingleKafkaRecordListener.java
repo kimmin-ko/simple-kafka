@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-public class SpringKafkaRecordListener {
+public class SingleKafkaRecordListener {
 
     @KafkaListener(topics = "test", groupId = "test-group-00")
     public void recordListener(ConsumerRecord<String, String> record) {
