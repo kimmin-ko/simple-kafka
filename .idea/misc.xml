@@ -9,7 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-multi-consumer-thread" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-producer" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-streams" />
-    <file type="web" url="file://$PROJECT_DIR$/spring-kafka-producer" />
+    <file type="web" url="file://$PROJECT_DIR$/simple-spring-kafka" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

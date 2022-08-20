@@ -1,0 +1,6 @@
+
+U
+java:S6213":Rename this variable to not match a restricted identifier.(´Å£Ÿýÿÿÿÿ
+Q	java:S125!"<This block of commented-out lines of code should be removed.(Ì™ô¨
+g
+java:S1128"LRemove this unused import 'org.apache.kafka.clients.consumer.KafkaConsumer'.(ËÁ²‹úÿÿÿÿ
