@@ -5,7 +5,8 @@ import org.apache.kafka.common.config.ConfigDef;
 
 import java.util.Map;
 
-import static org.apache.kafka.common.config.ConfigDef.*;
+import static org.apache.kafka.common.config.ConfigDef.Importance;
+import static org.apache.kafka.common.config.ConfigDef.Type;
 
 public class SingleFileSourceConnectorConfig extends AbstractConfig {
 
@@ -17,17 +18,9 @@ public class SingleFileSourceConnectorConfig extends AbstractConfig {
     private static final String TOPIC_DEFAULT_VALUE = "test";
     private static final String TOPIC_DOC = "보낼 토픽 이름";
 
-    public static ConfigDef CONFIG = new ConfigDef()
-            .define(DIR_FILE_NAME,
-                    Type.STRING,
-                    DIR_FILE_NAME_DEFAULT_VALUE,
-                    Importance.HIGH,
-                    DIR_FILE_NAME_DOC)
-            .define(TOPIC_NAME,
-                    Type.STRING,
-                    TOPIC_DEFAULT_VALUE,
-                    Importance.HIGH,
-                    TOPIC_DOC);
+    public static final ConfigDef CONFIG = new ConfigDef()
+            .define(DIR_FILE_NAME, Type.STRING, DIR_FILE_NAME_DEFAULT_VALUE, Importance.HIGH, DIR_FILE_NAME_DOC)
+            .define(TOPIC_NAME, Type.STRING, TOPIC_DEFAULT_VALUE, Importance.HIGH, TOPIC_DOC);
 
     public SingleFileSourceConnectorConfig(Map<String, String> props) {
         super(CONFIG, props);
