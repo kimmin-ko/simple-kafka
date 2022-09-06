@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/kafak-spring-producer-with-rest-controller" />
     <file type="web" url="file://$PROJECT_DIR$/kafka-consumer-with-multi-worker-thread" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-connect" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-consumer" />

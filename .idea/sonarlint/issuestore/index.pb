@@ -167,8 +167,6 @@ w
 G.idea/sonarlint/issuestore/6/0/601254411c8607c6ad5fcb08cd446096671863a2,7/8/78c86bf0b1ff022d05b567d22841b54c2ff5e3f1
 w
 G.idea/sonarlint/issuestore/b/1/b1a0bf1adf353587a22f582c0b81d2f33a65096d,2/3/23ce13a8e03d5cd718ecc391be0610a6dc685d5e
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/d/6/d6a747e7700f41e78531d3bf2ddf76e0ecee8274,f/1/f1d26000defbb070ef2e190be4a0da2cc47dcdf3
 w
@@ -199,9 +197,3 @@ y
 Isimple-kafka-connect/src/main/java/com/example/source/TestSourceTask.java,8/7/87afda916ee360af46e2d8b989e2c920c475c014
 ~
 Nsimple-kafka-connect/src/main/java/com/example/source/TestSourceConnector.java,b/7/b7be1f963397c460615d8d0748c0915199d4fe19
-Š
-Zsimple-kafka-connect/src/main/java/com/example/source/SingleFileSourceConnectorConfig.java,f/5/f54dfa5a161e62e6800e65500ff98bf3e2884b46
-
-Osimple-kafka-connect/src/main/java/com/example/source/SingleFileSourceTask.java,0/1/01717ce771614705f0d113d246c3894055eea9e7
-„
-Tsimple-kafka-connect/src/main/java/com/example/source/SingleFileSourceConnector.java,1/3/13642f9ca3e220525bdb1f26d50c1bb4005602a3

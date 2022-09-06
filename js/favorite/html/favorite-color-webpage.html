@@ -3,6 +3,18 @@
 <head>
   <meta charset="utf-8">
   <title>Favorite color select webpage</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function selectedColor(color_name) {
+      if ($("#user_name").val().length === 0) {
+        alert("이름을 입력하세요.")
+        return;
+      }
+
+      let url = 'http://localhost:8000/api/select?color=' + color_name + '$user=' + $("#user_name").val();
+      $.get(url);
+    }
+  </script>
 </head>
 <body>
 <div style="width:100%; height:50%">
