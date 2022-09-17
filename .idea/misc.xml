@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/kafak-spring-producer-with-rest-controller" />
     <file type="web" url="file://$PROJECT_DIR$/kafka-consumer-with-multi-worker-thread" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-multi-consumer-thread-hdfs-save" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-connect" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-consumer" />
     <file type="web" url="file://$PROJECT_DIR$/simple-kafka-consumer-with-multi-worker-thread" />
